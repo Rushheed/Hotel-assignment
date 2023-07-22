@@ -198,16 +198,20 @@ p {
     min-height: 100%;
 }
 
+.container {
+    margin-top: auto;
+}
+
 #testimonials {
     height: 600px;
     background-image: url(../images/aaa.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 40%;
+    padding-top:50px;
 }
 
 #testimonials h2 {
-    color: #fff;
+    color: rgb(47, 68, 185);
     text-align: center;
     padding-bottom: 40px;
 }
@@ -219,17 +223,25 @@ p {
     opacity: 0.9;
 }
 
+input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
 #testimonials .testimonial img {
     width: 100px;
     float: left;
     margin-right: 20px;
-    border-radius: 50%;
+    border-radius: 60%;
 }
 
 .btn-default {
+    width: 100%;
     color: #fff;
     background: blue;
     padding: 20px;
+    text-align: center;
 }
 
 .containertwo {
@@ -237,9 +249,10 @@ p {
     border: #333 2px solid;
     color: white;
     margin: auto;
-    width: 30%;
+    padding: 10px;
+    width: 100%;
     padding: 10px 5%;
-    height: 70%;
+    height: 100%;
 }
 #main-footer {
     text-align: center;
